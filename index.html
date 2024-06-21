@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/7e3145f120.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="options">
+
+        <!-- Text Format-->
+        <button type="button" id="bold" class="option-button format">
+          <i class="fa-solid fa-bold"></i>
+        </button>
+        <button id="italic" class="option-button format">
+          <i class="fa-solid fa-italic"></i>
+        </button>
+        <button id="underline" class="option-button format">
+          <i class="fa-solid fa-underline"></i>
+        </button>
+        <button id="strikethrough" class="option-button format">
+          <i class="fa-solid fa-strikethrough"></i>
+        </button>
+        <button id="superscript" class="option_button format">
+          <i class="fa-solid fa-superscript"></i>
+        </button>
+        <button id="subscript" class="option_button format">
+          <i class="fa-solid fa-subscript"></i>
+        </button>
+
+        <!--List Format-->
+        <button id="orderedlist" class="option-button">
+          <i class="fa-solid fa-list-ol"></i>
+        </button>
+        <button id="unorderedlist" class="option-button">
+          <i class="fa-solid fa-list-ul"></i>
+        </button>
+
+        <!--Undo-Redo-->
+        <button id="undo" class="option-button">
+          <i class="fa-solid fa-undo"></i>
+        </button>
+        <button id="redo" class="option-button">
+          <i class="fa-solid fa-redo"></i>
+        </button>
+
+        <!--Alignment-->
+        <button id="left-align" class="option-button align">
+          <i class="fa-solid fa-align-left"></i>
+        </button>
+        <button id="center-align" class="option-button align">
+          <i class="fa-solid fa-align-center"></i>
+        </button>
+        <button id="right-align" class="option-button align">
+          <i class="fa-solid fa-align-right"></i>
+        </button>
+        <button id="justify-align" class="option-button align">
+          <i class="fa-solid fa-align-justify"></i>
+        </button>
+      </div>
+    </div>
+    <script src="./main.js" charset="UTF-8"></script>
+  </body>
+</html>
